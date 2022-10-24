@@ -1,0 +1,88 @@
+/* STYLE SECTIONING TAGS */
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    background-color:#fffad6;
+    text-align:center;
+  }
+  
+/* STYLE TEXT */
+  h1 {
+    font-style: italic;
+    color: #e817b0;
+  }
+  
+  h2 {
+    margin-top: 2em; 
+    
+  }
+#questiona{
+  font-size:30px;
+  font-style:italic;
+}
+  #question1{
+    margin: 20px;
+  }
+  #question2{
+    margin: 20px;
+  }
+  #question3{
+    margin: 20px;
+  }
+  #question4{
+    margin: 20px;
+  }
+  #question5{
+    margin: 20px;
+  }
+  
+  #title{
+    font-size:60px;
+    padding-top:100px;
+    padding-bottom:20px;
+  }
+  /* STYLE FLEX CONTAINER */
+  .question {
+    display: flex;
+    margin-bottom: 100px;
+    text-align:center;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+    
+  /* STYLE FLEX ITEM */
+  .answer-choice {
+    margin-left:450px;
+    margin-right:450px;
+  }
+  
+  /* STYLE IMAGES */
+  .answer-choice img {
+    height:125px;
+    width:125px;
+    border-radius:50%;
+    margin:1px;
+  }
+  
+  /* STYLE BUTTON */
+  button { 
+    margin-top: 5px;
+    background-color:#ff99e9;
+    border-color:#ff99e9;
+    border-radius:5%;
+    color:white;
+    padding:10px;
+    font-size:20px;
+  }
+
+  button:hover {
+    background-color: palevioletred;
+    color: white;
+  }
+
+  /*moo*/ 
+
+  .answer-choice{
+    margin:20px;
+  }
+  
